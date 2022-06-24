@@ -51,6 +51,8 @@ htmk{
 
 .service:hover .media {
   transform: scale(1.1);
+  opacity: 0.5;
+  
 }
 
 ::-webkit-scrollbar {
