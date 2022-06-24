@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
         </div>
         <div className={styles.card}>
-          <Image
+          <img
             src="/img/Avocado.png"
             layout="fill"
             width="100%"
