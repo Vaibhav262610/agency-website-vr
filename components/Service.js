@@ -19,7 +19,7 @@ const Service = ({ services }) => {
                     {services.video ? (
                       <video src={`/img/${services.video}`}  autoPlay loop className="w-full h-full object-cover"/>
                     ) : (
-                      <Image src={`/img/${services.photo}`} width='100%' height='100%' layout='responsive' objectFit='cover' alt="" />
+                      <img src={`/img/${services.photo}`} width='100%' height='100%' layout='responsive' objectFit='cover' alt="" />
                     )}
                 </div>
               </div>
