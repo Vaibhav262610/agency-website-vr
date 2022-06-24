@@ -1,0 +1,22 @@
+.card{
+    flex: 1;
+    padding: 100px;
+    padding-right: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+@media screen and (max-width: 480px) {
+    .card {
+      padding: 50px;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+    }
+    
+
+}
+  

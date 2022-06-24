@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+htmk{
+  scroll-behavior: smooth;
+}
+
+.circle {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  opacity: 0.1;
+  overflow: hidden;
+
+}
+
+
+
+.service {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 50px;
+  background-color: whitesmoke;
+  cursor: none;
+}
+
+.media {
+  transition: all 0.3s ease;
+}
+
+.descr {
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+.service:hover .descr {
+  opacity: 1;
+}
+
+.service:hover .media {
+  transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #020710;
+}
